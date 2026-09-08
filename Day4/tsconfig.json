@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+
+    "noEmit": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@utils/*": ["./src/utils/*"],
+      "@components/*": ["./src/components/*"]
+    },
+
+    "declaration": true
+  },
+
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+
+  "exclude": [
+    "node_modules"
+  ]
+}
